@@ -17,4 +17,7 @@ chrome:
 将“一律使用安全连接”选项关闭即可  
 
 26.01.10  
-补充一些vrchat内容相关的域名,适合blacklist模式下附加规则
+补充一些vrchat内容相关的域名,适合blacklist模式下附加规则  
+
+26.02.04  
+更新pypy和wannadance的规则  
