@@ -3,7 +3,8 @@ payload:
 
 #pypy相关
 #- DOMAIN,jd.pypy.moe
-# http://jd.pypy.moe/api/v1/videos/1633.mp4
+# http://api.pypy.dance/video?id=437
+# http://cdn.pypy.dance/ol8jL8F-NwA.mp4
 - DOMAIN-SUFFIX,llss.io
 - DOMAIN,jd.pypy.moe
-- DOMAIN,cdn.pypy.dance
+- DOMAIN-SUFFIX,pypy.dance
