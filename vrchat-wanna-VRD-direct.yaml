@@ -3,12 +3,18 @@ payload:
 
 #wannadance相关
 # http://api.wannadance.online/Api/Songs/play?node=nya&id=7970
+# http://api.udon.dance/Api/Songs/play?node=nya&id=1981
+# http://api.udon.dance/Api/Songs/play?id=3781
+# https://wd.smartgslb.cn/files/2403/1981-660524b624d6b.mp4?e=dc23702caf2f8da163ea416c135ee5c1&s=33424954
 - DOMAIN-SUFFIX,wannadance.online
 - DOMAIN-SUFFIX,xin.moe
 - DOMAIN-SUFFIX,udon.dance
+- DOMAIN-SUFFIX,smartgslb.cn
+
 #VRDancing相关
 # https://na2.vrdancing.club/10212.mp4
 # https://na2-lq.vrdancing.club/57.mp4
 # https://eu2.vrdancing.club/4492.mp4
+# https://repo.ellyvr.dev/VRD/183/1.mp4
 - DOMAIN-SUFFIX,vrdancing.club
-- DOMAIN-SUFFIX,repo.ellyvr.dev
+- DOMAIN-SUFFIX,ellyvr.dev
