@@ -9,22 +9,23 @@
 ##https://play.udon.dance/files/2408/6071-66c923d25c9b1.mp4?e=ea298dbd5b53d8f4b54886e714211fcc&s=76231065
 ##- DOMAIN-SUFFIX,wannadance.online
 ##- DOMAIN-SUFFIX,xin.moe
-- DOMAIN,api.udon.dance,DIRECT
-- DOMAIN-SUFFIX,smartgslb.cn,DIRECT
-- DOMAIN,play.udon.dance,Proxy
+##注意play和api的顺序
+  - DOMAIN,play.udon.dance,GLOBAL
+  - DOMAIN,api.udon.dance,DIRECT
+  - DOMAIN-SUFFIX,smartgslb.cn,DIRECT
 
 ##VRDancing相关
 ##https://na2.vrdancing.club/10212.mp4
 ##https://na2-lq.vrdancing.club/57.mp4
 ##https://eu2.vrdancing.club/4492.mp4
 ##https://repo.ellyvr.dev/VRD/183/1.mp4
-- DOMAIN-SUFFIX,vrdancing.club,Proxy
-- DOMAIN-SUFFIX,ellyvr.dev,Proxy
+  - DOMAIN-SUFFIX,vrdancing.club,GLOBAL
+  - DOMAIN-SUFFIX,ellyvr.dev,GLOBAL
 
 ##pypy相关
 ##- DOMAIN,jd.pypy.moe
 ##http://api.pypy.dance/video?id=437
 ##http://cdn.pypy.dance/ol8jL8F-NwA.mp4
-- DOMAIN-SUFFIX,llss.io,Proxy
-- DOMAIN,jd.pypy.moe,Proxy
-- DOMAIN-SUFFIX,pypy.dance,Proxy
+  - DOMAIN-SUFFIX,llss.io,GLOBAL
+  - DOMAIN,jd.pypy.moe,GLOBAL
+  - DOMAIN-SUFFIX,pypy.dance,GLOBAL
