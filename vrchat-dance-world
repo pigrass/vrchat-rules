@@ -7,9 +7,11 @@
 ##http://api.udon.dance/Api/Songs/play?id=3781
 ##https://wd.smartgslb.cn/files/2403/1981-660524b624d6b.mp4?e=dc23702caf2f8da163ea416c135ee5c1&s=33424954
 ##https://play.udon.dance/files/2408/6071-66c923d25c9b1.mp4?e=ea298dbd5b53d8f4b54886e714211fcc&s=76231065
+##aya.kiva.moe 加载歌曲封面，但是挂载在cloudflare上
 ##- DOMAIN-SUFFIX,wannadance.online
 ##- DOMAIN-SUFFIX,xin.moe
 ##注意play和api的顺序
+  - DOMAIN,aya.kiva.moe,GLOBAL
   - DOMAIN,play.udon.dance,GLOBAL
   - DOMAIN,api.udon.dance,DIRECT
   - DOMAIN-SUFFIX,smartgslb.cn,DIRECT
