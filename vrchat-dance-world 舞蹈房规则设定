@@ -1,33 +1,25 @@
 ##推荐在路由器 openclash插件 - 覆写设置 - 规则设置 - 自定义规则 中添加
 
-##wannadance相关
-##http://api.wannadance.online/Api/Songs/play?node=nya&id=7970(失效)
-##http://api.udon.dance/Api/Songs/play?node=nya&id=1981
-##http://api.udon.dance/Api/Songs/play?node=cf&id=6071
-##http://api.udon.dance/Api/Songs/play?id=3781
-##https://wd.smartgslb.cn/files/2403/1981-660524b624d6b.mp4?e=dc23702caf2f8da163ea416c135ee5c1&s=33424954
-##https://play.udon.dance/files/2408/6071-66c923d25c9b1.mp4?e=ea298dbd5b53d8f4b54886e714211fcc&s=76231065
-##aya.kiva.moe 加载歌曲封面，但是挂载在cloudflare上
-##- DOMAIN-SUFFIX,wannadance.online
-##- DOMAIN-SUFFIX,xin.moe
-##注意play和api的顺序
+##wannadance相关  
+##注意play和api的顺序  
   - DOMAIN,aya.kiva.moe,GLOBAL
   - DOMAIN,play.udon.dance,GLOBAL
   - DOMAIN,api.udon.dance,DIRECT
   - DOMAIN-SUFFIX,smartgslb.cn,DIRECT
 
-##VRDancing相关
-##https://na2.vrdancing.club/10212.mp4
-##https://na2-lq.vrdancing.club/57.mp4
-##https://eu2.vrdancing.club/4492.mp4
-##https://repo.ellyvr.dev/VRD/183/1.mp4
+##VRDancing相关   
   - DOMAIN-SUFFIX,vrdancing.club,GLOBAL
   - DOMAIN-SUFFIX,ellyvr.dev,GLOBAL
 
-##pypy相关
-##- DOMAIN,jd.pypy.moe
-##http://api.pypy.dance/video?id=437
-##http://cdn.pypy.dance/ol8jL8F-NwA.mp4
+##pypy相关  
   - DOMAIN-SUFFIX,llss.io,GLOBAL
   - DOMAIN,jd.pypy.moe,GLOBAL
   - DOMAIN-SUFFIX,pypy.dance,GLOBAL
+
+##其他  
+  - DOMAIN,note.com,GLOBAL
+  - DOMAIN,vrnavi.jp,GLOBAL
+  - DOMAIN,booth.pm,GLOBAL
+  - DOMAIN,pximg.net,GLOBAL
+  - DOMAIN,topaz.chat,GLOBAL
+  - DOMAIN,workupload.com,GLOBAL
