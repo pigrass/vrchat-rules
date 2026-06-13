@@ -3,11 +3,13 @@
     "port": "",
     "outboundTag": "proxy",
     "domain": [
-      "note.com",
-      "vrnavi.jp",
       "booth.pm",
+      "note.com",
       "pximg.net",
-      "workupload.com"
+      "vrnavi.jp",
+      "workupload.com",
+      "unitychina.cn",
+      "unity.cn"
     ],
     "enabled": true,
     "remarks": "vrchat\u76F8\u5173\u4EE3\u7406"
