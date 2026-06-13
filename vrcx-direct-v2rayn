@@ -1,0 +1,12 @@
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "process": [
+      "vrcx-0.exe",
+      "VRCX.exe"
+    ],
+    "enabled": true,
+    "remarks": "vrcx\u76F4\u8FDE"
+  }
+]
